@@ -11,7 +11,7 @@ Vue.prototype.utils = utils
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-    locale: 'zh-CN',
+    locale: 'en-US',
     messages: {
         'zh-CN': require('@/assets/languages/zh-CN.json'),
         'en-US': require('@/assets/languages/en-US.json')
