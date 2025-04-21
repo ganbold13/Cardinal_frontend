@@ -1,4 +1,3 @@
-// File: dist/embed.go
 package dist
 
 import (
@@ -10,13 +9,11 @@ import (
 //go:embed all:*
 var embeddedFiles embed.FS
 
-var StaticFiles http.FileSystem
-
-func init() {
-	// Strip the prefix from dist/, so you can access /index.html, /assets, etc.
+// New returns the embedded http.FileSystem for the main frontend.
+func New() http.FileSystem {
 	fsys, err := fs.Sub(embeddedFiles, ".")
 	if err != nil {
 		panic(err)
 	}
-	StaticFiles = http.FS(fsys)
+	return http.FS(fsys)
 }
