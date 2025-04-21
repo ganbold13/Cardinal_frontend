@@ -4,7 +4,6 @@ package dist
 import (
 	"net/http"
 	"path"
-	"strings"
 )
 
 // WithSPA wraps a FileSystem and returns index.html for missing files (for SPA routing).
