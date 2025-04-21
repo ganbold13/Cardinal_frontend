@@ -11,8 +11,8 @@
                     :label="$t('flag.input_your_flag')"
                     clearable
             ></v-text-field>
-            <v-btn style="margin-left: 20px;" @click="submitFlag">
-                {{$t('flag.submit')}}
+            <v-btn color="success" style="margin-left: 20px;" @click="submitFlag">
+                {{ $t('flag.submit') }}
             </v-btn>
         </v-card-title>
         <v-card-text>

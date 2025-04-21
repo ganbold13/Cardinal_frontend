@@ -1,0 +1,56 @@
+{
+  "general": {
+    "score": "",
+    "close": "Хаах",
+    "minute": "Минут",
+    "second": "Секунд"
+  },
+  "login": {
+    "title": "Нэвтрэх",
+    "account": "Бүртгэл",
+    "password": "Нууц үг",
+    "login": "Нэвтрэх",
+    "reset": "Шинэчлэх",
+    "loading": "Уншиж байна...",
+    "account_empty": "Бүртгэлээ оруулна уу",
+    "password_empty": "Нууц үгээ оруулна уу"
+  },
+  "gamebox": {
+    "empty": "Даалгавар алга байна",
+    "list": "Машины жагсаалт",
+    "team": "Баг",
+    "challenge": "Даалгавар",
+    "address": "Хаяг"
+  },
+  "flag": {
+    "submit_flag": "Flag шалгах",
+    "submit": "Шалгах",
+    "input_your_flag": "flag{your_flag_here}"
+  },
+  "log": {
+    "live_log": "Шууд лог",
+    "no_data": "Мэдээлэл байхгүй",
+    "submit_flag": "{from} баг {to} [ {challenge} ] руу халдлаа",
+    "check_down": "{team} [ {challenge} ] унасан"
+  },
+  "timer": {
+    "not_begin": "Тоглоом эхлээгүй байна",
+    "pause": "Тоглоом зогссон байна",
+    "end": "Тоглоом дууслаа",
+    "til_round_end": "Үе {round}"
+  },
+  "bulletin": {
+    "empty": "Хоосон байна"
+  },
+  "rank": {
+    "rank": "#",
+    "team": "Баг",
+    "score": "Оноо"
+  },
+  "header": {
+    "status": "Машины төлөв",
+    "rank": "Түвшин",
+    "bulletin": "Мэдэгдэл",
+    "logout": "Гарах"
+  }
+}

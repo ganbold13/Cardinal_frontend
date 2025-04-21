@@ -34,7 +34,6 @@
             </v-card-actions>
         </v-card>
 
-        <!-- 登录等待 -->
         <v-dialog v-model="isLoading" hide-overlay persistent width="300">
             <v-card dark>
                 <v-card-text>

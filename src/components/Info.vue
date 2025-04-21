@@ -63,7 +63,7 @@
                 <v-list-item>
                     #{{ info.Rank }} / {{ utils.FormatFloat(info.Score) }} {{$t('general.score')}}
                 </v-list-item>
-                <v-btn v-if="allGameBoxes !== null" text @click="showGameBoxesVisible = true">靶机列表</v-btn>
+                <v-btn v-if="allGameBoxes !== null" text @click="showGameBoxesVisible = true">Target Info</v-btn>
             </v-card-actions>
         </v-card>
     </div>

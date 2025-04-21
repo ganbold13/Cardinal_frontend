@@ -25,7 +25,7 @@
   "flag": {
     "submit_flag": "Submit Flag",
     "submit": "Submit",
-    "input_your_flag": "Please input your flag here..."
+    "input_your_flag": "flag{your_flag_here}"
   },
   "log": {
     "live_log": "Live Log",

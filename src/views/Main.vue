@@ -1,13 +1,11 @@
 <template>
     <v-container>
-        <!-- 时间 -->
         <v-card class="mx-auto" max-width="600" color="transparent" flat>
             <Timer/>
         </v-card>
 
         <v-row>
             <v-col cols="6" md="4">
-                <!-- 靶机信息 -->
                 <Info/>
             </v-col>
             <v-col cols="12" md="8">
