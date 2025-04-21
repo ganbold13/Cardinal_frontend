@@ -2,20 +2,24 @@
   <div id="app">
     <v-app>
       <v-app-bar app clipped-left color="transparent" v-if="this.$route.name !== 'Login'">
-        <v-toolbar-title>{{ base.Title }}</v-toolbar-title>
+        <v-toolbar-title
+          style="cursor:pointer;"
+          @click="$router.push('/')"
+        >
+          {{ base.Title }}
+        </v-toolbar-title>
         <v-toolbar-items class="ml-5">
           <v-btn text to="/">{{ $t('header.status') }}</v-btn>
           <v-btn text to="/rank">{{ $t('header.rank') }}</v-btn>
           <v-btn text to="/bulletin">{{ $t('header.bulletin') }}</v-btn>
           <v-btn text @click="onLogout">{{ $t('header.logout') }}</v-btn>
-
         </v-toolbar-items>
         <v-spacer></v-spacer>
         <!-- switch language -->
         <v-menu bottom left>
           <template v-slot:activator="{ on }">
             <v-btn icon v-on="on">
-              <v-icon>mdi-translate</v-icon>
+              <v-icon>mdi-web</v-icon>
             </v-btn>
           </template>
           <v-list>

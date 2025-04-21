@@ -77,7 +77,7 @@
         created() {
             this.utils.GET('/base').then(res => {
                 this.base = res
-            }).catch(() => this.base.Title = 'Cardinal')
+            }).catch(() => this.base.Title = 'Attack & Defense')
         },
 
         methods: {
