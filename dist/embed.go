@@ -9,11 +9,11 @@ import (
 //go:embed all:*
 var embeddedFiles embed.FS
 
-// New returns the embedded http.FileSystem for the main frontend.
 func New() http.FileSystem {
 	fsys, err := fs.Sub(embeddedFiles, ".")
 	if err != nil {
 		panic(err)
 	}
-	return http.FS(fsys)
+	return WithSPA(http.FS(fsys))
 }
+
