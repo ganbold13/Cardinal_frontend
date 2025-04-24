@@ -25,7 +25,8 @@
   "flag": {
     "submit_flag": "Submit Flag",
     "submit": "Submit",
-    "input_your_flag": "flag{your_flag_here}"
+    "input_your_flag": "flag{your_flag_here}",
+    "guide": "You can submit the flag in two ways:\n1. Via the web interface: Enter the flag into the input field and click the Submit button.\n2. Via the command line: Use curl to send the flag."
   },
   "log": {
     "live_log": "Live Log",

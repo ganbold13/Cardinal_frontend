@@ -25,7 +25,8 @@
   "flag": {
     "submit_flag": "Flag шалгах",
     "submit": "Шалгах",
-    "input_your_flag": "flag{your_flag_here}"
+    "input_your_flag": "flag{your_flag_here}",
+    "guide": "Flag-ийг шалгах 2 арга бий:\n1. Веб интерфэйс ашиглах: Flag-г оруулж Submit товчийг дарна.\n2. Command Line ашиглах: Curl ашиглан илгээх."
   },
   "log": {
     "live_log": "Шууд лог",
